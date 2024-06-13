@@ -1,6 +1,10 @@
+# Deadlock Detection Program
 
+## Overview
 
-# deadlock detection - skeleton for Assignment 4
+This project implements a deadlock detection algorithm in C++. The algorithm processes a list of resource allocation and request edges to detect any deadlocks in the system. When a deadlock is detected, the algorithm stops and returns the index of the edge causing the deadlock along with the processes involved.
+
+# 
 
 To compile all code, type:
 ```
