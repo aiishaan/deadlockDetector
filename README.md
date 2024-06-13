@@ -1,14 +1,4 @@
-The parameter edges[] is an ordered list of strings, each representing an edge. The function returns an
-instance of Result containing two fields as described below.
-Your function will start with an empty system state – by initializing an empty graph data structure. For
-each string in edges[] it will parse it to determine if it represents an assignment edge or request edge,
-and update the graph accordingly. After inserting each edge into the graph, the function will run an
-algorithm that will look for a deadlock (by detecting if a cycle is present in the graph). If deadlock is
-detected, your function will stop processing any more edges and immediately return Result:
-• with edge_index set to the index of the edge in edges[] that caused the deadlock; and
-• with dl_procs[] containing process names that are involved in a deadlock. Order is arbitrary.
-If no deadlock is detected after processing all edges, your function will indicate this by returning Result
-with edge_index=-1 and an empty dl_procs[].
+
 
 # deadlock detection - skeleton for Assignment 4
 
