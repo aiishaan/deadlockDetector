@@ -2,14 +2,14 @@
 
 ## Overview
 
-This project implements a deadlock detection algorithm in C++. The algorithm processes a list of resource allocation and request edges to detect any deadlocks in the system. When a deadlock is detected, the algorithm stops and returns the index of the edge causing the deadlock along with the processes involved.
+This project implements a deadlock detection algorithm in C++. The algorithm processes a list of resource allocation and request edges to detect any deadlocks in the system. When a deadlock is detected, the algorithm stops and returns the index of the edge causing the deadlock along with the processes involved
 
 ### Implementation
 
 1. **Initialization**:
    - Initialize the `Result` structure with `edge_index = -1`.
-   - Initialize a graph representation using an adjacency list and an out-degree count for each node.
-   - Use unordered sets to keep track of processes and resources.
+   - Initialize a graph representation using an adjacency list and an out-degree count for each node
+   - Use unordered sets to keep track of processes and resources
 
 2. **Processing Edges**:
    - For each edge, split the string to extract the nodes and update the sets of processes and resources.
