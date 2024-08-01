@@ -30,7 +30,7 @@ To compile all code, type:
 $ make
 ```
 
-To run the resulting code on file test1.txt
+To run the resulting code on file test1.txt:
 ```
 $ ./deadlock < test1.txt
 ```
