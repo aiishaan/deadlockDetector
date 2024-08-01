@@ -36,7 +36,7 @@ $ ./deadlock < test1.txt
 ```
 
 
-## Test files.
+## Test files
 
 These are the correct results for the test files included in this repo.
 
