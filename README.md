@@ -38,7 +38,7 @@ $ ./deadlock < test1.txt
 
 ## Test files
 
-These are the correct results for the test files included in this repo.
+These are the correct results for the test files included in this repo
 
 | filename   | correct `edge_index` | correct `dl_procs` | minimum timings     | good timings     |
 | :---------- | :-------------: | :-----------: | :-----------------: | :--------------: |
