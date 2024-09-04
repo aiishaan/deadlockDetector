@@ -20,7 +20,7 @@ This project implements a deadlock detection algorithm in C++. The algorithm pro
    - If a cycle is detected (nodes with non-zero out-degrees after sorting), identify the processes involved and update the `Result` structure
 
 4. **Return Result**:
-   - If a deadlock is detected, return the `Result` structure with the edge index and list of processes
+   - If a deadlock is detected, return the `Result` structure with the edge index and list of processes.
    - If no deadlock is detected after processing all edges, return the `Result` with `edge_index = -1` and an empty list of processes.
 
 ### Compilation
