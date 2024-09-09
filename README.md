@@ -12,7 +12,7 @@ This project implements a deadlock detection algorithm in C++. The algorithm pro
    - Use unordered sets to keep track of processes and resources
 
 2. **Processing Edges**:
-   - For each edge, split the string to extract the nodes and update the sets of processes and resources.
+   - For each edge, split the string to extract the nodes and update the sets of processes and resources
    - Update the adjacency list and out-degree counts based on the edge type (request or assignment)
 
 3. **Topological Sorting**:
