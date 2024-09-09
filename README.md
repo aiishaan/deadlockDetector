@@ -16,7 +16,7 @@ This project implements a deadlock detection algorithm in C++. The algorithm pro
    - Update the adjacency list and out-degree counts based on the edge type (request or assignment)
 
 3. **Topological Sorting**:
-   - Perform a topological sort to detect cycles. Nodes with zero out-degrees are processed, and their out-degrees are decremented
+   - Perform a topological sort to detect cycles. Nodes with zero out-degrees are processed, and their out-degrees are decremented.
    - If a cycle is detected (nodes with non-zero out-degrees after sorting), identify the processes involved and update the `Result` structure
 
 4. **Return Result**:
