@@ -9,7 +9,7 @@ This project implements a deadlock detection algorithm in C++. The algorithm pro
 1. **Initialization**:
    - Initialize the `Result` structure with `edge_index = -1`
    - Initialize a graph representation using an adjacency list and an out-degree count for each node.
-   - Use unordered sets to keep track of processes and resources
+   - Use unordered sets to keep track of processes and resources.
 
 2. **Processing Edges**:
    - For each edge, split the string to extract the nodes and update the sets of processes and resources
